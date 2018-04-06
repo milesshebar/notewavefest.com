@@ -57,6 +57,11 @@ a:hover
   font-size: 1.6em;
 }
 
+#date {
+  font-size: 1.4em;
+  text-align: left;
+}
+
 #social-fa {
   color: rgb(180,87,167);
   transition: color .5s ease-in-out;
