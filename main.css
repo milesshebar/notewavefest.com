@@ -81,5 +81,8 @@ a:hover
         height: 160px;
 
     }
+    #date {
+      font-size: .8em;
+    }
 
 }
