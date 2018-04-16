@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="black">
+    <meta name="keywords" content="music,science,knox,kenyon,ohio,festival">
+    <meta name="description" content="Notewave, presented by Knox County Music Interactive, is a festival dedicated to music and science. By bringing together the communities of Knox County for a day of music, demonstrations, and interactive exhibits, we aim to inspire musical and scientific creativity in students and families.">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bulma.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700|Work+Sans" rel="stylesheet">
+
+    <title>Notewave</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../main.css">
+  </head>
+  <body>
+
+    <nav class="navbar is-black">
+      <div class="container">
+
+      <div class="navbar-brand">
+        <a class="navbar-item" href="../">
+          <img src="../_img/notewaveBAN.png" alt="Notewave logo" width="120" height="400">
+        </a>
+        <div class="navbar-burger burger"  data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/">
+            Home
+          </a>
+          <a class="navbar-item" href="/about/">
+            About
+          </a>
+          <a class="navbar-item" target="_blank" rel="noopener" href="https://www.gofundme.com/notewave-science-of-sound-festival">
+            Donate
+          </a>
+          <a class="navbar-item" href="/lineup/">
+            Lineup
+          </a>
+          <!--<a class="navbar-item" href="/faq/">
+            FAQ
+          </a>-->
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="button" href="https://facebook.com/knoxcountymusicinteractive" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="fab fa-facebook"></i>
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button" href="https://instagram.com/notewavefest" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="fab fa-instagram"></i>
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+
+          <h1 class="has-text-centered" style="margin-bottom: 40px;">*Lineup subject to change*</h1>
+
+          <div class="columns">
+
+
+
+            <div class="column is-4 has-text-centered">
+              <img class="" src="../_img/sgr.jpg" height="500px" width="500px">
+            </div>
+
+            <div class="column is-4 has-text-centered">
+              <img class="" src="../_img/sixmiles.jpg" height="500px" width="500px">
+            </div>
+
+            <div class="column is-4 has-text-centered">
+              <img class="" src="../_img/jermposter.jpg" height="500px" width="500px">
+            </div>
+
+
+
+          </div>
+
+          <div class="columns is-vcentered">
+
+
+            <div class="column is-4 has-text-centered">
+              <img class="" src="../_img/kokes.jpg" height="500px" width="500px">
+            </div>
+
+            <div class="column is-4 has-text-centered">
+              <img class="" src="../_img/millyposter.jpg" height="500px" width="500px">
+            </div>
+
+
+
+
+          </div>
+
+
+
+    </section>
+
+
+
+<!--about, lineup, contact, partners, donate, support our mission, FAQ, main with images/animations, waves going across the screen -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+
+        // Get the target from the "data-target" attribute
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+
+</script>
+
+  </body>
+</html>
