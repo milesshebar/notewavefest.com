@@ -1,4 +1,4 @@
-# [notewavefest.com](notewavefest.com)
+# [notewavefest.com](http://notewavefest.com)
 
 In-development website for Notewave, a community music festival in Knox County, OH.
 
