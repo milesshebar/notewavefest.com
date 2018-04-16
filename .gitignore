@@ -3,3 +3,4 @@ firebase.json
 firebase-debug.log
 node_modules/
 bulma.css
+package-lock.json
