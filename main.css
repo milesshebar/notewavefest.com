@@ -29,8 +29,8 @@ body {
 }
 
 main {
-  font-family: 'Space Mono', monospace;
   color: rgb(180, 87, 167);
+  font-family: 'Space Mono', monospace;
   padding-top: 20px;
 }
 
@@ -84,6 +84,7 @@ figure img, section img {
 #date p {
   font-size: 1.4em;
   text-align: center;
+  color: darkgrey;
 
 }
 
@@ -101,7 +102,7 @@ figure img, section img {
   color: rgb(140, 87, 167);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 560px) {
   .footer {
     height: 160px;
   }
