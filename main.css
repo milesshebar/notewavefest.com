@@ -56,6 +56,10 @@ a:hover {
   line-height: 52px;
 }
 
+figure {
+  margin-top: 50px;
+}
+
 figure img, section img {
   animation: fadein 2s;
 }
@@ -98,6 +102,12 @@ figure img, section img {
   color: rgb(140, 87, 167);
 }
 
+@media (max-width: 767px) {
+  #kcmi {
+    margin-top: -40px;
+  }
+}
+
 @media (max-width: 560px) {
   #date {
     padding-top: 40px;
@@ -109,4 +119,5 @@ figure img, section img {
   h1 {
     font-size: 2em;
   }
+
 }
