@@ -73,7 +73,9 @@ figure img, section img {
   }
 }
 
-
+#kcmi {
+  margin-top: 0px;
+}
 
 #info-txt {
   font-size: 1.6em;
