@@ -61,7 +61,10 @@ figure {
 }
 
 figure img, section img {
-  animation: fadein 2s;
+  opacity: 0;
+  animation: fadein 1s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
